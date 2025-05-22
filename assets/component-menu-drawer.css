@@ -1,6 +1,13 @@
 .header__icon--menu {
   position: initial;
 }
+.header__icon {
+  color:#262d5c; 
+}
+
+.header__heading-link{
+   color:#262d5c; 
+}
 
 .js menu-drawer > details > summary::before,
 .js menu-drawer > details[open]:not(.menu-opening) > summary::before {

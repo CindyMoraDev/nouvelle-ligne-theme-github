@@ -38,6 +38,8 @@ slideshow-component .slideshow.banner {
   flex-direction: column;
   justify-content: center;
   max-width: 54.5rem;
+  background-color: transparent;
+  color:#fff;
 }
 
 .slideshow__text > * {
@@ -199,3 +201,10 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0;
   transform: scale(0.8);
 }
+
+.button--primary{
+  border: 1px solid #fff;
+  background-color: transparent;
+  color:#fff;
+}
+
