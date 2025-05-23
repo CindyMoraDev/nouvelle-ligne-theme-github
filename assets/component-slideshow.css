@@ -10,7 +10,25 @@ slideshow-component .slideshow.banner {
   margin: 0;
   gap: 0;
   overflow-y: hidden;
+scroll-snap-type: none !important;
+scroll-behavior: auto !important;
 }
+
+@keyframes fadeIn {
+0% { opacity: 0.5; }
+100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+0% { opacity: 1; }
+100% { opacity: 0.5; }
+}
+
+slideshow-component .slideshow.banner [aria-hidden="false"] {
+animation: fadeIn 200ms, fadeOut 200ms 4800ms;
+}
+
+ 
 
 .slideshow__slide {
   padding: 0;
