@@ -95,6 +95,12 @@
   transform: translateX(-50%);
   z-index: 1;
   }
+
+  @media only screen and (max-width:576px){
+  .spacer {
+  display:none!important;
+}
+  }
 </style>
 
 {%- style -%}
@@ -121,6 +127,12 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+    @media only screen and (max-width:576px){
+  .header {
+       padding-left:0;
+      padding-right:0;
+}
 {%- endstyle -%}
 
 
