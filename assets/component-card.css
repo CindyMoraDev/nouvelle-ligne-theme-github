@@ -120,6 +120,8 @@
 .card--media .card__inner .card__content {
   position: relative;
   padding: calc(var(--image-padding) + 1rem);
+  background-color: #262d5c08;
+  border-radius: 3px;
 }
 
 .card__content {

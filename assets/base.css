@@ -556,6 +556,11 @@ hr {
   display: block;
 }
 
+.full-unstyled-link:hover {
+  text-decoration: none;
+}
+
+
 .placeholder {
   background-color: rgba(var(--color-foreground), 0.04);
   color: rgba(var(--color-foreground), 0.55);
@@ -2445,15 +2450,19 @@ input[type='checkbox'] {
   padding: 0.75rem;
   text-decoration: none;
   word-break: break-word;
+  
 }
 
+/*
 .header__heading-link:hover .h2 {
   color: rgb(var(--color-foreground));
-}
+}*/
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-foreground), 0.75);
+  /*color: rgba(var(--color-foreground), 0.75);*/
+  color:var(--primary-color);
+  font-weight: 500;
 }
 
 .header__heading-logo {
