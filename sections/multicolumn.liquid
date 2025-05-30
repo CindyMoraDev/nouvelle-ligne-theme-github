@@ -115,9 +115,7 @@
                         sizes: sizes,
                         class: 'multicolumn-card__image'
                     }}
-                  </div>
-                </div>
-              {%- endif -%}
+                    <!--Change to display text inside image -->
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
@@ -141,6 +139,10 @@
                   </a>
                 {%- endif -%}
               </div>
+                  </div>
+                </div>
+              {%- endif -%}
+
             </div>
           </li>
         {%- endfor -%}
