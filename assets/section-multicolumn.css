@@ -233,23 +233,37 @@
 }
 
 /*Remove spaces from multicolums*/
-@media screen and (min-width: 750px) {
-    .page-width {
+
+    .multicolumn > .page-width {
         padding: 0;
     }
-}
 
-@media screen and (min-width: 750px) {
-    .grid {
+ .multicolumn  .grid  {
       width: 100%;
     column-gap: 0; 
     row-gap: 0;
     }
-}
 
 @media screen and (min-width: 990px) {
-    .grid--3-col-desktop .grid__item {
+    .multicolumn .grid--3-col-desktop .grid__item {
         width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
 max-width: 100%; 
     }
 }
+
+@media screen and (max-width: 749px) {
+    .multicolumn-list:not(.slider) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/*Move elements inside multicolums*/
+
+.multicolumn-list h3 {
+    padding-top: 100%;
+}
+
+ .multicolumn-list p{
+  padding-top: 0;
+ }
