@@ -21,33 +21,17 @@
             "link": ""
           }
         },
-        "announcement_icRnff": {
-          "type": "announcement",
-          "settings": {
-            "text": "Disclaimer: Demo content only; no commercial use.",
-            "link": ""
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Free shipping: $75+ Canada / $150+ internationa",
             "link": ""
           }
-        },
-        "announcement_UbVaFk": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement_xfwiB3",
-        "announcement_icRnff",
-        "announcement-bar-0",
-        "announcement_UbVaFk"
+        "announcement-bar-0"
       ],
       "settings": {
         "auto_rotate": true,
