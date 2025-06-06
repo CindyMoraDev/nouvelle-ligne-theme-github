@@ -14,6 +14,20 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_xfwiB3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Disclaimer: Demo content only; no commercial use.",
+            "link": ""
+          }
+        },
+        "announcement_icRnff": {
+          "type": "announcement",
+          "settings": {
+            "text": "Disclaimer: Demo content only; no commercial use.",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -21,17 +35,19 @@
             "link": ""
           }
         },
-        "announcement_xfwiB3": {
+        "announcement_UbVaFk": {
           "type": "announcement",
           "settings": {
-            "text": "Disclaimer: Demo content only; no commercial use.",
+            "text": "Welcome to our store",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement_xfwiB3",
-        "announcement-bar-0"
+        "announcement_icRnff",
+        "announcement-bar-0",
+        "announcement_UbVaFk"
       ],
       "settings": {
         "auto_rotate": true,
