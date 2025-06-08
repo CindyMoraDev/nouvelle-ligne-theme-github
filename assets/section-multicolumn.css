@@ -267,3 +267,21 @@ max-width: 100%;
  .multicolumn-list p{
   padding-top: 0;
  }
+
+ .multicolumn-list .media > *:not(.zoom):not(.deferred-media__poster-button){
+background: rgba(0, 0, 0, 0.1); }
+
+.multicolumn-list .inline-richtext{
+  color: var(--base-color);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.multicolumn-list .svg-wrapper{
+  display:none;
+}
+
+.multicolumn-list .button[aria-disabled='true']
+{
+ opacity:1;
+}
