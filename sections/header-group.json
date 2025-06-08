@@ -11,38 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free shipping: $75+ Canada / $150+ internationa",
-            "link": ""
-          }
-        },
-        "announcement_xfwiB3": {
-          "type": "announcement",
-          "settings": {
-            "text": "Disclaimer: Demo content only; no commercial use.",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_xfwiB3",
-        "announcement-bar-0"
-      ],
-      "settings": {
-        "auto_rotate": true,
-        "change_slides_speed": 4,
-        "color_scheme": "scheme-3",
-        "show_line_separator": true,
-        "show_social": false,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -61,10 +29,35 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
+    },
+    "announcement_bar_BTkFdG": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_CNpazA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Disclaimer: Demo content only; no commercial use.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CNpazA"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 4,
+        "color_scheme": "scheme-3",
+        "show_line_separator": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "header",
+    "announcement_bar_BTkFdG"
   ]
 }
