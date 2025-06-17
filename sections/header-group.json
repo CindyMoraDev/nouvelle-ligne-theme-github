@@ -57,7 +57,7 @@
     }
   },
   "order": [
-    "header",
-    "announcement_bar_BTkFdG"
+    "announcement_bar_BTkFdG",
+    "header"    
   ]
 }

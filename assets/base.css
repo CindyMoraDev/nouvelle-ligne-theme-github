@@ -1205,7 +1205,7 @@ button.shopify-payment-button__button--unbranded {
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  /*--border-offset: var(--buttons-border-offset);  reduce radius edge artifacts */
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
@@ -1279,7 +1279,7 @@ button.shopify-payment-button__button--unbranded {
   --border-offset: 1.3px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
-    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
+    0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-foreground), var(--alpha-button-background));
 }
 
 .button--secondary:after {
@@ -1351,7 +1351,7 @@ shopify-accelerated-checkout-cart {
 .customer button.disabled,
 .quantity__button.disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .button--full-width {
@@ -2261,6 +2261,7 @@ input[type='checkbox'] {
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
+  color: rgb(var(--color-foreground));
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
@@ -2991,7 +2992,7 @@ details-disclosure > details {
   left: calc(var(--text-boxes-border-width) * -1);
   border-radius: var(--text-boxes-radius);
   box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset)
-    var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
+    var(--text-boxes-shadow-blur-radius) rgba(var(--color-foreground), var(--text-boxes-shadow-opacity));
   z-index: -1;
 }
 
