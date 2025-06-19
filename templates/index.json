@@ -149,11 +149,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_btBnDA": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_AbAhqd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I was taught my styling skills by the best teacher of all, Karl.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_mGMkY9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ines de la Fressange",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text_AbAhqd",
+        "heading_mGMkY9"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Conoce-y-aprende-con-INES-DE-LA-FRESSANGE-BOGA.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_CxWQ8R",
     "featured_collection",
-    "multicolumn_4innnk"
+    "multicolumn_4innnk",
+    "image_with_text_btBnDA"
   ]
 }
