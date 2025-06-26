@@ -52,33 +52,46 @@
   white-space: nowrap;
   padding: 1rem 0;
 }
+
 .as-seen-on-title {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
 }
+
 .as-seen-on-logos {
   display: flex;
-  animation: marquee 20s linear infinite;
+  animation: scroll-left 10s linear infinite;
+  width: max-content;
+  align-items: center;
+  gap: 3rem;
 }
+
 .as-seen-on-logos a {
-  display: inline-flex;
-  width: 80%;
-  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .as-seen-on-logos img {
   height: 60px;
   width: auto;
   filter: grayscale(100%);
-  transition: .3s ease-in-out filter;
+  transition: filter 0.3s ease-in-out;
   object-fit: contain;
 }
+
 .as-seen-on-logos a:hover img {
   filter: grayscale(0%);
 }
-@keyframes marquee {
-  0% {transform: translateX(0px);}
-  100% {transform: translateX(-100%);}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 {% endstylesheet %}
 
@@ -86,16 +99,20 @@
   {% if section.settings.as_seen_on %}
     <p class="as-seen-on-title">{{ section.settings.as_seen_on }}</p>
   {% endif %}
-  <div class="as-seen-on-logos">
-    {% for block in section.blocks %}
-      <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
-        <img src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image_alt | escape }}" loading="lazy">
-      </a>
-    {% endfor %}
-    {% for block in section.blocks %}
-      <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
-        <img src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image_alt | escape }}" loading="lazy">
-      </a>
-    {% endfor %}
-  </div>
+  {% if section.blocks.size > 0 %}
+    <div class="as-seen-on-logos">
+      {% for i in (1..6) %}
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
+              <img
+                src="{{ block.settings.image | img_url: '300x' }}"
+                alt="{{ block.settings.image_alt | escape }}"
+                loading="lazy">
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
