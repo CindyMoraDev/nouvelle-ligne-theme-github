@@ -203,7 +203,7 @@
             "image_alt": ""
           }
         },
-        "logo_LLUCWT": {
+        "logo_97cUCB": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/download_1.png",
@@ -218,12 +218,39 @@
             "link": "",
             "image_alt": ""
           }
+        },
+        "logo_P3XKCf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download.png",
+            "link": "https://www.vogue.com/article/ines-de-la-fressange-cannes-film-festival-roger-vivier-red-carpet-french-women",
+            "image_alt": ""
+          }
+        },
+        "logo_LLUCWT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_1.png",
+            "link": "",
+            "image_alt": ""
+          }
+        },
+        "logo_Ch4yqb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "link": "",
+            "image_alt": ""
+          }
         }
       },
       "block_order": [
         "logo_NDGx3d",
+        "logo_97cUCB",
+        "logo_fbfDTd",
+        "logo_P3XKCf",
         "logo_LLUCWT",
-        "logo_fbfDTd"
+        "logo_Ch4yqb"
       ],
       "name": "As Seen On",
       "settings": {
