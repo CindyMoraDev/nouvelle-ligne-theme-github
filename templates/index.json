@@ -173,7 +173,7 @@
         "heading_mGMkY9"
       ],
       "custom_css": [
-        ".image-with-text__heading{color: rgba(255,255,255,0.7)}"
+        ".image-with-text__heading {color: rgba(255, 255, 255, 0.7);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -192,58 +192,42 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_neQMUk": {
-      "type": "multicolumn",
+    "as_seen_rNrNnN": {
+      "type": "as-seen",
       "blocks": {
-        "column_d9Fgx8": {
-          "type": "column",
+        "logo_NDGx3d": {
+          "type": "logo",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/download.png",
+            "link": "https://www.vogue.com/article/ines-de-la-fressange-cannes-film-festival-roger-vivier-red-carpet-french-women",
+            "image_alt": ""
           }
         },
-        "column_TFiz4L": {
-          "type": "column",
+        "logo_LLUCWT": {
+          "type": "logo",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/download_1.png",
+            "link": "",
+            "image_alt": ""
           }
         },
-        "column_NNRzW6": {
-          "type": "column",
+        "logo_fbfDTd": {
+          "type": "logo",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/images.png",
+            "link": "",
+            "image_alt": ""
           }
         }
       },
       "block_order": [
-        "column_d9Fgx8",
-        "column_TFiz4L",
-        "column_NNRzW6"
+        "logo_NDGx3d",
+        "logo_LLUCWT",
+        "logo_fbfDTd"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "As Seen On",
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Button label",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "as_seen_on": "As Seen on"
       }
     }
   },
@@ -252,6 +236,6 @@
     "featured_collection",
     "multicolumn_4innnk",
     "image_with_text_btBnDA",
-    "multicolumn_neQMUk"
+    "as_seen_rNrNnN"
   ]
 }
