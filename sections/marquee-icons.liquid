@@ -1,0 +1,118 @@
+{% schema %}
+{
+  "name": "Marquee icon",
+  "settings": [
+    {
+      "type": "text",
+      "id": "marquee-icon",
+      "label": "Marquee on Text",
+      "default": "Marquee",
+      "info": "Enter the text that will be shown above the logo carousel."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo Image",
+          "info": "Upload the logo images here."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Logo URL",
+          "info": "Enter URL where users can click to read/see the feature."
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image Alt Text",
+          "info": "Enter alt text for logo image."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 50,
+  "presets": [
+    {
+      "name": "Marquee icon",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.marquee-icon-container {
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding: 1rem 0;
+}
+
+.marquee-icon-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.marquee-icon-logos {
+  display: flex;
+  animation: scroll-left 40s linear infinite;
+  width: max-content;
+  align-items: center;
+  gap: 3rem;
+}
+
+.marquee-icon-logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-icon-logos img {
+  height: 60px;
+  width: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  object-fit: contain;
+}
+
+.marquee-icon-logos a:hover img {
+  filter: grayscale(0%);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+{% endstylesheet %}
+
+<div class="marquee-icon-container">
+  {% if section.settings.marquee-icon %}
+    <p class="marquee-icon-title">{{ section.settings.marquee-icon }}</p>
+  {% endif %}
+  {% if section.blocks.size > 0 %}
+    <div class="marquee-icon-logos">
+      {% for i in (1..6) %}
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
+              <img
+                src="{{ block.settings.image | img_url: '300x' }}"
+                alt="{{ block.settings.image_alt | escape }}"
+                loading="lazy">
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

@@ -1,13 +1,44 @@
+{% comment %}
+  As Seen In Section
+{% endcomment %}
+
+<div class="as-seen-in-container">
+  {% if section.settings.title != blank %}
+    <h2 class="as-seen-in-title">{{ section.settings.title }}</h2>
+  {% endif %}
+
+  {% if section.blocks.size > 0 %}
+    <div class="as-seen-in-logos">
+      {% for block in section.blocks %}
+        {% if block.settings.image != blank %}
+          <a
+            href="{{ block.settings.link }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="as-seen-in-logo-link"
+          >
+            <img
+              src="{{ block.settings.image | img_url: '150x' }}"
+              alt="{{ block.settings.image_alt | escape }}"
+              loading="lazy"
+              class="as-seen-in-logo-img"
+            />
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
 {% schema %}
 {
-  "name": "As Seen On",
+  "name": "As Seen In",
   "settings": [
     {
       "type": "text",
-      "id": "as_seen_on",
-      "label": "As Seen on Text",
-      "default": "As Seen on",
-      "info": "Enter the text that will be shown above the logo carousel."
+      "id": "title",
+      "label": "Section Title",
+      "default": "As Seen In"
     }
   ],
   "blocks": [
@@ -18,28 +49,25 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Logo Image",
-          "info": "Upload the logo images here."
+          "label": "Logo Image"
         },
         {
           "type": "url",
           "id": "link",
-          "label": "Logo URL",
-          "info": "Enter URL where users can click to read/see the feature."
+          "label": "Logo Link"
         },
         {
           "type": "text",
           "id": "image_alt",
-          "label": "Image Alt Text",
-          "info": "Enter alt text for logo image."
+          "label": "Image Alt Text"
         }
       ]
     }
   ],
-  "max_blocks": 50,
+  "max_blocks": 10,
   "presets": [
     {
-      "name": "As Seen On",
+      "name": "As Seen In",
       "category": "Custom"
     }
   ]
@@ -47,33 +75,29 @@
 {% endschema %}
 
 {% stylesheet %}
-.as-seen-on-container {
-  overflow-x: hidden;
-  white-space: nowrap;
-  padding: 1rem 0;
-}
-
-.as-seen-on-title {
+.as-seen-in-container {
+  padding: 2rem 1rem;
   text-align: center;
-  font-size: 22px;
-  font-weight: bold;
 }
 
-.as-seen-on-logos {
-  display: flex;
-  animation: scroll-left 10s linear infinite;
-  width: max-content;
-  align-items: center;
-  gap: 3rem;
+.as-seen-in-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
-.as-seen-on-logos a {
+.as-seen-in-logos {
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.as-seen-on-logos img {
+.as-seen-in-logo-link {
+  display: inline-block;
+}
+
+.as-seen-in-logo-img {
   height: 60px;
   width: auto;
   filter: grayscale(100%);
@@ -81,38 +105,12 @@
   object-fit: contain;
 }
 
-.as-seen-on-logos a:hover img {
+.as-seen-in-logo-link:hover .as-seen-in-logo-img {
   filter: grayscale(0%);
 }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+@media only screen and (max-width:576px){
+  .as-seen-in-logo-img {
+  height: 40px;}
 }
 {% endstylesheet %}
-
-<div class="as-seen-on-container">
-  {% if section.settings.as_seen_on %}
-    <p class="as-seen-on-title">{{ section.settings.as_seen_on }}</p>
-  {% endif %}
-  {% if section.blocks.size > 0 %}
-    <div class="as-seen-on-logos">
-      {% for i in (1..6) %}
-        {% for block in section.blocks %}
-          {% if block.settings.image %}
-            <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
-              <img
-                src="{{ block.settings.image | img_url: '300x' }}"
-                alt="{{ block.settings.image_alt | escape }}"
-                loading="lazy">
-            </a>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </div>
-  {% endif %}
-</div>
