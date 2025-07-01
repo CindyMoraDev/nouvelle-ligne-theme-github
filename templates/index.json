@@ -191,12 +191,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "as_seen_dXCeBc": {
+      "type": "as-seen",
+      "blocks": {
+        "logo_Rrk6VQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue.svg",
+            "link": "",
+            "image_alt": ""
+          }
+        },
+        "logo_wC3fq8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Harper_s_Bazaar_Black.svg",
+            "link": "",
+            "image_alt": ""
+          }
+        },
+        "logo_cWdFxj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine.svg",
+            "link": "",
+            "image_alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Rrk6VQ",
+        "logo_wC3fq8",
+        "logo_cWdFxj"
+      ],
+      "name": "As Seen In",
+      "settings": {
+        "title": "As Seen In"
+      }
     }
   },
   "order": [
     "slideshow_CxWQ8R",
     "featured_collection",
     "multicolumn_4innnk",
-    "image_with_text_btBnDA"
+    "image_with_text_btBnDA",
+    "as_seen_dXCeBc"
   ]
 }
