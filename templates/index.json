@@ -156,7 +156,7 @@
         "text_AbAhqd": {
           "type": "text",
           "settings": {
-            "text": "<p>I was taught my styling skills by the best teacher of all, Karl.</p>",
+            "text": "<p><br/>Having few but good things. Mixing old and new, luxurious and cheap, day and evening. Remembering clothes are there to help you look and feel good, not to show off.<br/><br/></p>",
             "text_style": "subtitle"
           }
         },
@@ -191,12 +191,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "as_seen_dXCeBc": {
+      "type": "as-seen",
+      "blocks": {
+        "logo_Rrk6VQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/VOGUE_LOGO.svg",
+            "link": "https://www.vogue.com/article/ines-de-la-fressange-cannes-film-festival-roger-vivier-red-carpet-french-women",
+            "image_alt": "Vogue Logo"
+          }
+        },
+        "logo_wC3fq8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Harper_s_Bazaar_Black.svg",
+            "link": "https://www.harpersbazaar.com/es/moda/noticias-moda/a180697/ines-de-la-fressange-abre-tienda-en-paris/",
+            "image_alt": "Harper´s Bazaar Logo"
+          }
+        },
+        "logo_cWdFxj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine.svg",
+            "link": "https://www.elle.com/fashion/news/a15343/ines-de-la-fressange-admires-american-women-a-lot/",
+            "image_alt": "Elle Logo"
+          }
+        }
+      },
+      "block_order": [
+        "logo_Rrk6VQ",
+        "logo_wC3fq8",
+        "logo_cWdFxj"
+      ],
+      "name": "As Seen In",
+      "settings": {
+        "title": "As Seen In"
+      }
     }
   },
   "order": [
     "slideshow_CxWQ8R",
     "featured_collection",
     "multicolumn_4innnk",
-    "image_with_text_btBnDA"
+    "image_with_text_btBnDA",
+    "as_seen_dXCeBc"
   ]
 }
