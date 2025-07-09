@@ -199,24 +199,24 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/VOGUE_LOGO.svg",
-            "link": "",
-            "image_alt": ""
+            "link": "https://www.vogue.com/article/ines-de-la-fressange-cannes-film-festival-roger-vivier-red-carpet-french-women",
+            "image_alt": "Vogue Logo"
           }
         },
         "logo_wC3fq8": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Harper_s_Bazaar_Black.svg",
-            "link": "",
-            "image_alt": ""
+            "link": "https://www.harpersbazaar.com/es/moda/noticias-moda/a180697/ines-de-la-fressange-abre-tienda-en-paris/",
+            "image_alt": "Harper´s Bazaar Logo"
           }
         },
         "logo_cWdFxj": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/ELLE_Magazine.svg",
-            "link": "",
-            "image_alt": ""
+            "link": "https://www.elle.com/fashion/news/a15343/ines-de-la-fressange-admires-american-women-a-lot/",
+            "image_alt": "Elle Logo"
           }
         }
       },
