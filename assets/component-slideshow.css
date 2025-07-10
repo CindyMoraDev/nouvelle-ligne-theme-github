@@ -65,7 +65,7 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 54.5rem;
+  max-width: 100rem;
   background-color: transparent;
   color:#fff;
 }
@@ -104,6 +104,10 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
   .slideshow__text.slideshow__text-mobile--right {
     align-items: flex-end;
     text-align: right;
+  }
+
+  .banner__buttons{
+    justify-content: center;
   }
 }
 

@@ -17,10 +17,11 @@
           "settings": {
             "image": "shopify://shop_images/model-in-heels-and-overalls-with-blue.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Ines's Parisian Simplicity",
+            "heading": "Simplicity",
             "heading_size": "h1",
             "subheading": "Discover effortless Parisian elegance, designed by Inès de la Fressange.",
             "button_label": "Explore the new collection",
+            "button_label_2": "View Atelier Story",
             "link": "",
             "button_style_secondary": false,
             "show_text_box": true,
