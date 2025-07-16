@@ -94,6 +94,7 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
+        
         {% assign skip_card_product_styles = false %}
 
         {%- if section.settings.collection.products.size > 0 -%}
@@ -164,12 +165,14 @@
               {{- 'icon-caret.svg' | inline_asset_content -}}
             </span>
           </button>
+          <!-- Hide Number in scrooll
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
             <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
             <span class="slider-counter--total">{{ products_to_display }}</span>
           </div>
+          -->
           <button
             type="button"
             class="slider-button slider-button--next"
