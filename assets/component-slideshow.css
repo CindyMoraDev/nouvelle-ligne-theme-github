@@ -235,9 +235,10 @@ slideshow-component:not(.page-width) .slider-buttons {
   transform: scale(0.8);
 }
 
+/*
 .button--primary{
   border: 1px solid #fff;
   background-color: transparent;
   color:#fff;
-}
+}*/
 
