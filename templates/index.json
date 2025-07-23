@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/model-in-heels-and-overalls-with-blue.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "heading": "Simplicity",
             "heading_size": "h1",
             "subheading": "Discover effortless Parisian elegance, designed by Inès de la Fressange.",
@@ -37,7 +37,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/minimalist-retail-clothing-display.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
