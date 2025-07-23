@@ -21,14 +21,16 @@
             "heading_size": "h1",
             "subheading": "Discover effortless Parisian elegance, designed by Inès de la Fressange.",
             "button_label": "Explore the new collection",
-            "button_label_2": "View Atelier Story",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "View Atelier Story",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-2"
           }
         },
         "slide_xr6P8w": {
@@ -42,6 +44,9 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
             "show_text_box": true,
             "box_align": "middle-center",
             "text_alignment": "center",
@@ -174,7 +179,8 @@
         "heading_mGMkY9"
       ],
       "custom_css": [
-        ".image-with-text__heading {color: rgba(255, 255, 255, 0.7);} .image-with-text__media-item{background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);}"
+        ".image-with-text__heading {color: rgba(255, 255, 255, 0.7);}",
+        ".image-with-text__media-item {background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
