@@ -3613,3 +3613,16 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/*Slideshow responsive*/
+@media (max-width: 700px) {
+    .desk {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .mob {
+        display: none;
+    }
+}

@@ -1,51 +1,3 @@
-{% schema %}
-{
-  "name": "Marquee icon",
-  "settings": [
-    {
-      "type": "text",
-      "id": "marquee-icon",
-      "label": "Marquee on Text",
-      "default": "Marquee",
-      "info": "Enter the text that will be shown above the logo carousel."
-    }
-  ],
-  "blocks": [
-    {
-      "type": "logo",
-      "name": "Logo",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Logo Image",
-          "info": "Upload the logo images here."
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Logo URL",
-          "info": "Enter URL where users can click to read/see the feature."
-        },
-        {
-          "type": "text",
-          "id": "image_alt",
-          "label": "Image Alt Text",
-          "info": "Enter alt text for logo image."
-        }
-      ]
-    }
-  ],
-  "max_blocks": 50,
-  "presets": [
-    {
-      "name": "Marquee icon",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
-
 {% stylesheet %}
 .marquee-icon-container {
   overflow-x: hidden;
@@ -93,6 +45,22 @@
     transform: translateX(-50%);
   }
 }
+
+/*Text to icons*/
+.logo-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-caption {
+  font-size: 14px;
+  color: #262d5c;
+  margin-top: 0.5rem;
+  max-width: 120px;
+}
+
 {% endstylesheet %}
 
 <div class="marquee-icon-container">
@@ -104,15 +72,78 @@
       {% for i in (1..6) %}
         {% for block in section.blocks %}
           {% if block.settings.image %}
+            <div class="logo-with-text">
             <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
               <img
                 src="{{ block.settings.image | img_url: '300x' }}"
                 alt="{{ block.settings.image_alt | escape }}"
                 loading="lazy">
             </a>
+            
+              {% comment %}
+              Add text to logo
+              {% endcomment %}
+            {% if block.settings.logo_text != blank %}
+            <p class="logo-caption">{{ block.settings.logo_text }}</p>
+          {% endif %}
+        </div>
           {% endif %}
         {% endfor %}
       {% endfor %}
     </div>
   {% endif %}
 </div>
+
+{% schema %}
+{
+  "name": "Marquee icon",
+  "settings": [
+    {
+      "type": "text",
+      "id": "marquee-icon",
+      "label": "Marquee on Text",
+      "default": "Marquee",
+      "info": "Enter the text that will be shown above the logo carousel."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo Image",
+          "info": "Upload the logo images here."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Logo URL",
+          "info": "Enter URL where users can click to read/see the feature."
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image Alt Text",
+          "info": "Enter alt text for logo image."
+        },
+        {
+          "type": "text",
+          "id": "logo_text",
+          "label": "Logo Caption Text",
+          "info": "Enter the text you want to appear below the logo."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 50,
+  "presets": [
+    {
+      "name": "Marquee icon",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
