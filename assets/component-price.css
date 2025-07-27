@@ -99,3 +99,5 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+
+.quick-add__submit > svg{ width:15px;}

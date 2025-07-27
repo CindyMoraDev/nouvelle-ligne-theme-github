@@ -1,3 +1,7 @@
+:root {
+  --primary-color:#262d5c;
+  --base-color:#fff;}
+  
 .multicolumn .title {
   margin: 0;
 }
