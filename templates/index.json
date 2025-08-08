@@ -236,6 +236,67 @@
       "settings": {
         "title": "As Seen In"
       }
+    },
+    "marquee_icons_V3GxLV": {
+      "type": "marquee-icons",
+      "blocks": {
+        "logo_KdmFMB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/textile.png",
+            "link": "",
+            "image_alt": "Handpicked Fabrics",
+            "logo_text": "Handpicked Fabrics"
+          }
+        },
+        "logo_9QnMKP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/global-navigation.png",
+            "link": "",
+            "image_alt": "Worldwide Delivery",
+            "logo_text": "Worldwide Delivery"
+          }
+        },
+        "logo_JYDbNE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/sew.png",
+            "link": "",
+            "image_alt": "Crafted in Europe and France",
+            "logo_text": "Crafted in Europe and France"
+          }
+        },
+        "logo_D6xYcC": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/shopping.png",
+            "link": "",
+            "image_alt": "Free Shipping and Returns in France",
+            "logo_text": "Free Shipping and Returns in France"
+          }
+        },
+        "logo_R9cYT4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/paris.png",
+            "link": "",
+            "image_alt": "Design in Paris",
+            "logo_text": "Design in Paris"
+          }
+        }
+      },
+      "block_order": [
+        "logo_KdmFMB",
+        "logo_9QnMKP",
+        "logo_JYDbNE",
+        "logo_D6xYcC",
+        "logo_R9cYT4"
+      ],
+      "name": "Marquee icon",
+      "settings": {
+        "marquee-icon": ""
+      }
     }
   },
   "order": [
@@ -243,6 +304,7 @@
     "featured_collection",
     "multicolumn_4innnk",
     "image_with_text_btBnDA",
-    "as_seen_dXCeBc"
+    "as_seen_dXCeBc",
+    "marquee_icons_V3GxLV"
   ]
 }
