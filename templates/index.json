@@ -156,6 +156,63 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_custom_m4i4CG": {
+      "type": "multicolumn-custom",
+      "blocks": {
+        "column_PDjXNc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dressed-for-spring.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AUDjpc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X6fFG9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PDjXNc",
+        "column_AUDjpc",
+        "column_X6fFG9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_btBnDA": {
       "type": "image-with-text",
       "blocks": {
@@ -297,72 +354,15 @@
       "settings": {
         "marquee-icon": ""
       }
-    },
-    "multicolumn_custom_m4i4CG": {
-      "type": "multicolumn-custom",
-      "blocks": {
-        "column_PDjXNc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/dressed-for-spring.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AUDjpc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_X6fFG9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_PDjXNc",
-        "column_AUDjpc",
-        "column_X6fFG9"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slideshow_CxWQ8R",
     "featured_collection",
+    "multicolumn_custom_m4i4CG",
     "multicolumn_4innnk",
     "image_with_text_btBnDA",
     "as_seen_dXCeBc",
-    "marquee_icons_V3GxLV",
-    "multicolumn_custom_m4i4CG"
+    "marquee_icons_V3GxLV"
   ]
 }
