@@ -3,6 +3,7 @@
   overflow-x: hidden;
   white-space: nowrap;
   padding: 1rem 0;
+  margin: 4rem 0;
 }
 
 .marquee-icon-title {
@@ -13,7 +14,7 @@
 
 .marquee-icon-logos {
   display: flex;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 120s linear infinite;
   width: max-content;
   align-items: center;
   gap: 3rem;
@@ -28,7 +29,7 @@
 .marquee-icon-logos img {
   height: 60px;
   width: auto;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   transition: filter 0.3s ease-in-out;
   object-fit: contain;
 }
@@ -50,17 +51,27 @@
 .logo-with-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
+   align-self: flex-start; /* stick the whole block to the top */
 }
 
 .logo-caption {
   font-size: 14px;
   color: #262d5c;
   margin-top: 0.5rem;
-  max-width: 120px;
+  max-width: 200px;
+  padding: 10px;
+  inline-size: 150px;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
+@media only screen and (max-width:576px){
+  .marquee-icon-logos {
+  animation: scroll-left 60s linear infinite;
+  gap: 0.5rem;
+}
+}
 {% endstylesheet %}
 
 <div class="marquee-icon-container">
