@@ -38,10 +38,10 @@
           "settings": {
             "image": "shopify://shop_images/minimalist-retail-clothing-display.jpg",
             "image_overlay_opacity": 10,
-            "heading": "Image slide",
+            "heading": "See our Paris Atelier in action",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "Step Inside",
             "link": "",
             "button_style_secondary": false,
             "button_label_2": "",

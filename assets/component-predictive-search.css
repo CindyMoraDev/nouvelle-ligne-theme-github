@@ -138,6 +138,7 @@ predictive-search[loading] .predictive-search__results-groups-wrapper ~ .predict
 .predictive-search__list-item:hover .predictive-search__item-heading {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+  color:var(--color-background);
 }
 
 .predictive-search__item {
@@ -171,6 +172,7 @@ predictive-search[loading] .predictive-search__results-groups-wrapper ~ .predict
 
 .predictive-search__item-heading {
   margin: 0;
+  color:var(--color-background);
 }
 
 .predictive-search__item-query-result *:not(mark) {
