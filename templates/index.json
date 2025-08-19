@@ -196,7 +196,7 @@
         "column_cDacAE"
       ],
       "custom_css": [
-        ".center{text-align:left;}"
+        ".center {text-align: left;}"
       ],
       "name": "Collection Multicolumn",
       "settings": {
