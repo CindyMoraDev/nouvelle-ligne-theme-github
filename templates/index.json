@@ -99,10 +99,30 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_4innnk": {
-      "type": "multicolumn",
+    "multicolumn_custom_m4i4CG": {
+      "type": "multicolumn-custom",
       "blocks": {
-        "column_UGL3LP": {
+        "column_PDjXNc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dressed-for-spring.jpg",
+            "title": "Blouses & Shirts",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        },
+        "column_AUDjpc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
+            "title": "Pants",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        },
+        "column_X6fFG9": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fashion-model-in-pink.jpg",
@@ -111,32 +131,12 @@
             "link_label": "Discover",
             "link": ""
           }
-        },
-        "column_LJqqEk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/dressed-for-spring.jpg",
-            "title": "Pants",
-            "text": "",
-            "link_label": "Discover",
-            "link": ""
-          }
-        },
-        "column_cDacAE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
-            "title": "Jackets & Coats",
-            "text": "",
-            "link_label": "Discover",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "column_UGL3LP",
-        "column_LJqqEk",
-        "column_cDacAE"
+        "column_PDjXNc",
+        "column_AUDjpc",
+        "column_X6fFG9"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -149,41 +149,41 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn_custom_m4i4CG": {
-      "type": "multicolumn-custom",
+    "multicolumn_4innnk": {
+      "type": "multicolumn",
       "blocks": {
-        "column_PDjXNc": {
+        "column_UGL3LP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/dressed-for-spring.jpg",
-            "title": "Column",
+            "image": "shopify://shop_images/hh3qKPGe.jpg",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_AUDjpc": {
+        "column_LJqqEk": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
-            "title": "Column",
+            "image": "shopify://shop_images/MASTER_14_T511_CO_820_P251_BABY_BLUE_34_MAIN_57ac9cfae8.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_X6fFG9": {
+        "column_cDacAE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "title": "Column",
+            "image": "shopify://shop_images/14_K112_CO_061_P088_NAVY_BLACK_MAIN_a2be186fad.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -191,24 +191,27 @@
         }
       },
       "block_order": [
-        "column_PDjXNc",
-        "column_AUDjpc",
-        "column_X6fFG9"
+        "column_UGL3LP",
+        "column_LJqqEk",
+        "column_cDacAE"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "custom_css": [
+        ".center {text-align: left;}"
+      ],
+      "name": "Collection Multicolumn",
       "settings": {
-        "title": "Multicolumn",
+        "title": "Ceremonial Selection",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "portrait",
-        "button_label": "",
+        "image_ratio": "square",
+        "button_label": "Shop Now",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 6,
         "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
