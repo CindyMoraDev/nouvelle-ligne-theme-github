@@ -348,9 +348,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/dressed-for-spring.jpg",
-            "title": "Blouses & Shirts",
+            "title": "",
             "text": "",
-            "link_label": "Discover",
+            "link_label": "",
             "link": ""
           }
         },
@@ -358,9 +358,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
-            "title": "Pants",
+            "title": "",
             "text": "",
-            "link_label": "Discover",
+            "link_label": "",
             "link": ""
           }
         },
@@ -368,9 +368,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "title": "Dresses & Skirts",
+            "title": "",
             "text": "",
-            "link_label": "Discover",
+            "link_label": "",
             "link": ""
           }
         },
@@ -378,9 +378,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "title": "Dresses & Skirts",
+            "title": "",
             "text": "",
-            "link_label": "Discover",
+            "link_label": "",
             "link": ""
           }
         }
