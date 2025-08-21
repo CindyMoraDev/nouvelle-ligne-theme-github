@@ -391,6 +391,9 @@
         "column_rYarFN",
         "column_hWQeDc"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.grid--4-col-desktop .grid__item {max-width: 25%; }}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
