@@ -341,6 +341,74 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_custom_dLHMeT": {
+      "type": "multicolumn-custom",
+      "blocks": {
+        "column_kTjzfM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dressed-for-spring.jpg",
+            "title": "Blouses & Shirts",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        },
+        "column_kTjUqk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a-model-in-khakis-holding-orchids.jpg",
+            "title": "Pants",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        },
+        "column_rYarFN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
+            "title": "Dresses & Skirts",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        },
+        "column_hWQeDc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
+            "title": "Dresses & Skirts",
+            "text": "",
+            "link_label": "Discover",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kTjzfM",
+        "column_kTjUqk",
+        "column_rYarFN",
+        "column_hWQeDc"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "marquee_icons_V3GxLV": {
       "type": "marquee-icons",
       "blocks": {
@@ -410,6 +478,7 @@
     "multicolumn_custom_m4i4CG",
     "multicolumn_4innnk",
     "image_with_text_btBnDA",
+    "multicolumn_custom_dLHMeT",
     "marquee_icons_V3GxLV"
   ]
 }
