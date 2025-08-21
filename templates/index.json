@@ -246,7 +246,7 @@
       "settings": {
         "title": "Ceremonial Selection",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "square",
         "button_label": "Shop Now",
         "button_link": "",
