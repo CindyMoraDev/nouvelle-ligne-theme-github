@@ -228,16 +228,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_rDVdrq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/paris.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -247,8 +237,7 @@
         "column_KKMeAA",
         "column_Rnnbfc",
         "column_LJqqEk",
-        "column_cDacAE",
-        "column_rDVdrq"
+        "column_cDacAE"
       ],
       "custom_css": [
         ".center {text-align: left;}"
