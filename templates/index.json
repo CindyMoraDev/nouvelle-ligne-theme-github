@@ -169,6 +169,46 @@
             "link": ""
           }
         },
+        "column_MHtfDN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hh3qKPGe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3YXcmP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hh3qKPGe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KKMeAA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hh3qKPGe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rnnbfc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hh3qKPGe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_LJqqEk": {
           "type": "column",
           "settings": {
@@ -192,6 +232,10 @@
       },
       "block_order": [
         "column_UGL3LP",
+        "column_MHtfDN",
+        "column_3YXcmP",
+        "column_KKMeAA",
+        "column_Rnnbfc",
         "column_LJqqEk",
         "column_cDacAE"
       ],
