@@ -314,7 +314,15 @@ slider-component.slider-component-full-width {
 .slider-buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+/*Move buttons to the left and right of the slider*/
+  justify-content: space-between;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 2;
 }
 
 @media screen and (min-width: 990px) {
@@ -346,6 +354,10 @@ slider-component.slider-component-full-width {
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  /*Make buttons visible*/
+  pointer-events: auto;
+  box-shadow: 0 2px 10px rgba(38, 45, 92, 0.7);
+  transition: all 0.2s ease-in-out;
 }
 
 .slider-button:not([disabled]):hover {
@@ -359,6 +371,15 @@ slider-component.slider-component-full-width {
 .slider-button[disabled] .icon {
   color: rgba(var(--color-foreground), 0.3);
   cursor: not-allowed;
+}
+
+/*Move buttons to the left and right of the slider*/
+.slider-button--next {
+  margin-right: 1rem;
+}
+
+.slider-button--prev {
+  margin-left: 1rem;
 }
 
 .slider-button--next .icon {
@@ -375,4 +396,19 @@ slider-component.slider-component-full-width {
 
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
+}
+
+/* Mobile responsive adjustments for slider buttons */
+@media screen and (max-width: 749px) {
+  .slider-buttons {
+    padding: 0 0.5rem;
+  }
+  
+  .slider-button--next {
+    margin-right: 0.5rem;
+  }
+  
+  .slider-button--prev {
+    margin-left: 0.5rem;
+  }
 }
