@@ -151,7 +151,7 @@
 
 .footer-block__heading {
   margin-bottom: 2rem;
-  margin-top: 0;
+  /*margin-top: 0;*/
   font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
 
@@ -178,6 +178,8 @@
 .footer-block__newsletter {
   text-align: center;
   flex-grow: 1;
+  display: flex
+;
 }
 
 .newsletter-form__field-wrapper {
@@ -249,6 +251,7 @@
   .footer-block__newsletter + .footer__list-social {
     margin-top: 0;
   }
+
 }
 
 .footer__localization {
@@ -506,3 +509,12 @@
     }
   }
 }
+
+/**/
+
+
+.newsletter-form__field-wrapper .field .field__label,
+.newsletter-form__field-wrapper .field .newsletter-form__button{
+  color:var(--primary-color);
+}
+
