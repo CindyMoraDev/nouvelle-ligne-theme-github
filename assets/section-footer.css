@@ -42,7 +42,7 @@
 
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .footer__content-bottom:only-child {
@@ -153,6 +153,7 @@
   margin-bottom: 2rem;
   /*margin-top: 0;*/
   font-size: calc(var(--font-heading-scale) * 1.6rem);
+  color:var(--color-background);
 }
 
 @media screen and (min-width: 990px) {
@@ -178,8 +179,8 @@
 .footer-block__newsletter {
   text-align: center;
   flex-grow: 1;
-  display: flex
-;
+  display: flex;
+  justify-content: space-between;
 }
 
 .newsletter-form__field-wrapper {
@@ -508,13 +509,5 @@
       padding-left: 3rem;
     }
   }
-}
-
-/**/
-
-
-.newsletter-form__field-wrapper .field .field__label,
-.newsletter-form__field-wrapper .field .newsletter-form__button{
-  color:var(--primary-color);
 }
 

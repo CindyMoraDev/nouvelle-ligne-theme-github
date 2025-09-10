@@ -13,13 +13,33 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_kEbzJf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About Us",
+            "menu": "footer"
+          }
+        },
+        "link_list_mggfBj": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Return",
+            "menu": "return"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_kEbzJf",
+        "link_list_mggfBj"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "SIGN UP FOR EXCLUSIVE OFFERS & PROMOTIONS",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
