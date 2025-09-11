@@ -27,14 +27,22 @@
             "heading": "Return",
             "menu": "return"
           }
+        },
+        "text_DXY6JC": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>The secret of great style is to feel good in what you wear.<br/>━  Élise  de Villeneuve  ━<br/></p>"
+          }
         }
       },
       "block_order": [
         "link_list_kEbzJf",
-        "link_list_mggfBj"
+        "link_list_mggfBj",
+        "text_DXY6JC"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "newsletter_enable": true,
         "newsletter_heading": "SIGN UP FOR EXCLUSIVE OFFERS & PROMOTIONS",
         "enable_follow_on_shop": true,

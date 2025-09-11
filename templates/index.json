@@ -19,7 +19,7 @@
             "image_overlay_opacity": 10,
             "heading": "Simplicity",
             "heading_size": "h1",
-            "subheading": "Discover effortless Parisian elegance, designed by Inès de la Fressange.",
+            "subheading": "Discover effortless Parisian elegance, designed by Élise  de Villeneuve",
             "button_label": "Explore the new collection",
             "link": "",
             "button_style_secondary": false,
@@ -278,7 +278,8 @@
         "column_cDacAE"
       ],
       "custom_css": [
-        ".center {text-align: left;}"
+        ".center {text-align: left;}",
+        ".multicolumn .title {margin: 1em 0 0 0;}"
       ],
       "name": "Collection Multicolumn",
       "settings": {
@@ -311,7 +312,7 @@
         "heading_mGMkY9": {
           "type": "heading",
           "settings": {
-            "heading": "Ines de la Fressange",
+            "heading": "Élise  de Villeneuve",
             "heading_size": "h2"
           }
         }
@@ -351,7 +352,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.instagram.com/inesdelafressangeparis/"
           }
         },
         "column_kTjUqk": {
@@ -361,7 +362,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.instagram.com/inesdelafressangeparis/"
           }
         },
         "column_rYarFN": {
@@ -371,7 +372,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.instagram.com/inesdelafressangeparis/"
           }
         },
         "column_hWQeDc": {
@@ -381,7 +382,7 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://www.instagram.com/inesdelafressangeparis/"
           }
         }
       },
@@ -393,7 +394,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.grid--4-col-desktop .grid__item {max-width: 25%; }}",
-        "@media screen and (max-width: 749px) {.grid--2-col-tablet-down .grid__item {max-width: 50%; }}"
+        "@media screen and (max-width: 749px) {.grid--2-col-tablet-down .grid__item {max-width: 50%; }}",
+        ".multicolumn .title {margin: 2em 0 0 0;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -402,7 +404,7 @@
         "image_width": "full",
         "image_ratio": "portrait",
         "button_label": "",
-        "button_link": "https://www.instagram.com/inesdelafressangeparis/",
+        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
