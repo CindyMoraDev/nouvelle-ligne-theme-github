@@ -19,7 +19,7 @@
             "image_overlay_opacity": 10,
             "heading": "Simplicity",
             "heading_size": "h1",
-            "subheading": "Discover effortless Parisian elegance, designed by Inès de la Fressange.",
+            "subheading": "Discover effortless Parisian elegance, designed by Élise  de Villeneuve",
             "button_label": "Explore the new collection",
             "link": "",
             "button_style_secondary": false,
@@ -311,7 +311,7 @@
         "heading_mGMkY9": {
           "type": "heading",
           "settings": {
-            "heading": "Ines de la Fressange",
+            "heading": "Élise  de Villeneuve",
             "heading_size": "h2"
           }
         }

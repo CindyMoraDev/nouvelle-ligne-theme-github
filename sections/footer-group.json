@@ -28,18 +28,18 @@
             "menu": "return"
           }
         },
-        "image_HARf7U": {
-          "type": "image",
+        "text_DXY6JC": {
+          "type": "text",
           "settings": {
-            "image_width": 100,
-            "alignment": "center"
+            "heading": "",
+            "subtext": "<p>The secret of great style is to feel good in what you wear.<br/>━  Élise  de Villeneuve  ━<br/></p>"
           }
         }
       },
       "block_order": [
         "link_list_kEbzJf",
         "link_list_mggfBj",
-        "image_HARf7U"
+        "text_DXY6JC"
       ],
       "settings": {
         "color_scheme": "scheme-3",
