@@ -27,11 +27,19 @@
             "heading": "Return",
             "menu": "return"
           }
+        },
+        "image_HARf7U": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "link_list_kEbzJf",
-        "link_list_mggfBj"
+        "link_list_mggfBj",
+        "image_HARf7U"
       ],
       "settings": {
         "color_scheme": "scheme-3",
