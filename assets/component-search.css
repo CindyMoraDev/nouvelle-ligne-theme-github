@@ -72,7 +72,3 @@ input::-webkit-search-decoration {
 .template-search__results {
   position: relative;
 }
-
-.shopify-section-group-header-group > sticky-header > header > div.header__top-row.page-width > div.header__icons.header__icons--localization.header-localization > div.desktop-search > predictive-search > form > div.field > input.search__input.field__input{
-  background-color: #fbfbfb1f;
-}
