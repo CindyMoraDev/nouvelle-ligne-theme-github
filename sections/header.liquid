@@ -101,6 +101,47 @@
   display:none!important;
 }
   }
+
+          :root {
+            --inputs-radius: 20px !important;
+        }
+
+        .mobile-search {
+          display: none;
+        }
+
+        .desktop-search {
+          display: block;
+        }
+
+        @media only screen and (min-width: 1201px) {
+          predictive-search[open] .predictive-search {
+                position: absolute;
+                min-width: 300px;
+                left: -150px;
+                transform: translateX(50%);
+          }        
+          .search-modal__form .search-modal__form  .field {
+            width:100%;
+          }
+          .search-modal__form {
+          max-width: 30rem;
+          }
+         .search__input.field__input {
+          padding-right: 2rem; 
+        }
+          
+        }
+        
+        @media only screen and (max-width: 1200px) {
+          .mobile-search {
+            display: block;
+          }
+
+          .desktop-search {
+            display: none;
+          }
+        }
 </style>
 
 {%- style -%}
@@ -150,6 +191,29 @@
       background: #fff !important;
       color:#262d5c;
       }
+
+      .header__icon {
+  color:#262d5c; 
+}
+    /* Search form styling for scrolled header state */
+        .scrolled-past-header .desktop-search .search-modal__form .search-modal__form .field::after{
+        border-radius: 0;
+        border-bottom: 1px solid #262d5c;
+        }
+    </style>
+   
+  {% endif %}
+
+  {% if template != 'index' %}
+  <style>
+ 
+    .header-wrapper{
+    background: #262d5c;
+    }
+    .shopify-section-group-header-group > sticky-header > header > div.header__top-row .header__heading-link .h2,
+     .shopify-section-group-header-group > sticky-header > header > div.header__top-row .localization-selector{
+      color:#fff;
+     }
     </style>
    
   {% endif %}
@@ -296,52 +360,7 @@
           </localization-form>
         {%- endif -%}
       </div>
-            <style>
-        :root {
-            --inputs-radius: 20px !important;
-        }
 
-        .mobile-search {
-          display: none;
-        }
-
-        .desktop-search {
-          display: block;
-        }
-
-        @media only screen and (min-width: 1201px) {
-          predictive-search[open] .predictive-search {
-                position: absolute;
-                min-width: 300px;
-                left: -150px;
-                transform: translateX(50%);
-          }        
-          .search-modal__form .search-modal__form  .field {
-            width:100%;
-          }
-          .search-modal__form {
-          max-width: 30rem;
-          }
-         .search__input.field__input {
-          padding-right: 2rem; 
-        }
-                /* Search form styling for scrolled header state */
-        .scrolled-past-header .desktop-search .search-modal__form .search-modal__form .field::after{
-        border-radius: 0;
-        border-bottom: 1px solid #262d5c;
-        }
-        }
-        
-        @media only screen and (max-width: 1200px) {
-          .mobile-search {
-            display: block;
-          }
-
-          .desktop-search {
-            display: none;
-          }
-        }
-      </style>
       <div class="mobile-search">
         {% render 'header-search', input_id: 'Search-In-Modal' %}
       </div>
