@@ -168,7 +168,7 @@
       "scheme-3": {
         "settings": {
           "background": "#262d5c",
-          "background_gradient": "",
+          "background_gradient": "#262D5C",
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#262d5c",
