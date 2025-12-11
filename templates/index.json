@@ -28,7 +28,7 @@
             "link_2": "",
             "button_style_secondary_2": false,
             "show_text_box": true,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-3"
@@ -60,6 +60,7 @@
         "slide_gpDhTr",
         "slide_xr6P8w"
       ],
+      "custom_css": [],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
