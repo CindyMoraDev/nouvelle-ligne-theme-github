@@ -111,7 +111,7 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
   }
 
   .slideshow__text.banner__box {
-    background-color: #262d5c;
+    background-color: var(--color-background);
   }
 }
 
