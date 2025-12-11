@@ -15,7 +15,8 @@
         "slide_gpDhTr": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/model-in-heels-and-overalls-with-blue.jpg",
+            "image": "shopify://shop_images/manito-silk-a6w9vCSyPWY-unsplash-desktop.jpg",
+            "image-mob": "shopify://shop_images/manito-silk-a6w9vCSyPWY-unsplash-mobile.jpg",
             "image_overlay_opacity": 10,
             "heading": "Simplicity",
             "heading_size": "h1",
@@ -280,8 +281,8 @@
       "custom_css": [
         ".center {text-align: left;}",
         ".multicolumn .title {margin: 0.5em 0 0 0;}",
-        ".title-wrapper-with-link{margin:0;}",
-        ".slider-buttons {display:none;}"
+        ".title-wrapper-with-link {margin: 0;}",
+        ".slider-buttons {display: none;}"
       ],
       "name": "Collection Multicolumn",
       "settings": {
@@ -326,7 +327,7 @@
       "custom_css": [
         ".image-with-text__heading {color: rgba(255, 255, 255, 0.7);}",
         ".image-with-text__media-item {background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);}",
-        ".isolate .collapse-corners{border-radius: 5px;}"
+        ".isolate .collapse-corners {border-radius: 5px;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
