@@ -90,6 +90,7 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
 
   .banner--mobile-bottom .slideshow__text.banner__box {
     height: 100%;
+    background-color: none;
   }
 
   .banner--mobile-bottom .slideshow__text .button {
