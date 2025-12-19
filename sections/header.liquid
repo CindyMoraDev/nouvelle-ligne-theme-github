@@ -187,19 +187,26 @@
     background: transparent;
     }
     
-    .scrolled-past-header * {
-      background: #fff !important;
-      color:#262d5c;
-      }
+ 
 
       .header__icon {
-  color:#262d5c; 
+  color:#fff; 
 }
     /* Search form styling for scrolled header state */
         .scrolled-past-header .desktop-search .search-modal__form .search-modal__form .field::after{
         border-radius: 0;
         border-bottom: 1px solid #262d5c;
         }
+
+        .shopify-section-group-header-group > sticky-header > header > div.header__top-row .header__heading-link .h2,
+     .shopify-section-group-header-group > sticky-header > header > div.header__top-row .localization-selector{
+      color:#fff;
+     }
+
+        .scrolled-past-header * {
+      background: #fff !important;
+      color:#262d5c!important;
+      }
     </style>
    
   {% endif %}

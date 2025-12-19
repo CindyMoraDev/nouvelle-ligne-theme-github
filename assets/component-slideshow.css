@@ -82,6 +82,7 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
 
   .banner--mobile-bottom .slideshow__text.banner__box {
     max-width: 100%;
+    background-color: rgb(var(--color-background));
   }
 
   .banner--mobile-bottom .slideshow__text-wrapper {
@@ -109,6 +110,8 @@ slideshow-component .slideshow.banner [aria-hidden="false"] {
   .banner__buttons{
     justify-content: center;
   }
+
+  
 }
 
 @media screen and (min-width: 750px) {

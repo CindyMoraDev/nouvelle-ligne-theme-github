@@ -15,7 +15,8 @@
         "slide_gpDhTr": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/model-in-heels-and-overalls-with-blue.jpg",
+            "image": "shopify://shop_images/manito-silk-a6w9vCSyPWY-unsplash-desktop.jpg",
+            "image-mob": "shopify://shop_images/manito-silk-a6w9vCSyPWY-unsplash-mobile.jpg",
             "image_overlay_opacity": 10,
             "heading": "Simplicity",
             "heading_size": "h1",
@@ -27,8 +28,8 @@
             "link_2": "",
             "button_style_secondary_2": false,
             "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
+            "box_align": "bottom-center",
+            "text_alignment": "left",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-3"
           }
@@ -48,8 +49,8 @@
             "link_2": "",
             "button_style_secondary_2": false,
             "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
+            "box_align": "bottom-center",
+            "text_alignment": "left",
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-3"
           }
@@ -59,6 +60,7 @@
         "slide_gpDhTr",
         "slide_xr6P8w"
       ],
+      "custom_css": [],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -67,7 +69,7 @@
         "auto_rotate": true,
         "change_slides_speed": 3,
         "image_behavior": "none",
-        "show_text_below": false,
+        "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -280,8 +282,8 @@
       "custom_css": [
         ".center {text-align: left;}",
         ".multicolumn .title {margin: 0.5em 0 0 0;}",
-        ".title-wrapper-with-link{margin:0;}",
-        ".slider-buttons {display:none;}"
+        ".title-wrapper-with-link {margin: 0;}",
+        ".slider-buttons {display: none;}"
       ],
       "name": "Collection Multicolumn",
       "settings": {
@@ -326,7 +328,7 @@
       "custom_css": [
         ".image-with-text__heading {color: rgba(255, 255, 255, 0.7);}",
         ".image-with-text__media-item {background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);}",
-        ".isolate .collapse-corners{border-radius: 5px;}"
+        ".isolate .collapse-corners {border-radius: 5px;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
