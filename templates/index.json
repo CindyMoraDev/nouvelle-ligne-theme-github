@@ -480,6 +480,58 @@
       "settings": {
         "marquee-icon": ""
       }
+    },
+    "image_banner_C9HCmY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wpQKPX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_zwex3J": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_X8pMCL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wpQKPX",
+        "text_zwex3J",
+        "buttons_X8pMCL"
+      ],
+      "custom_css": [
+        ".gradient{background-color: transparent;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/model-in-heels-and-overalls-with-blue.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -490,6 +542,7 @@
     "multicolumn_4innnk",
     "image_with_text_btBnDA",
     "multicolumn_custom_dLHMeT",
-    "marquee_icons_V3GxLV"
+    "marquee_icons_V3GxLV",
+    "image_banner_C9HCmY"
   ]
 }
